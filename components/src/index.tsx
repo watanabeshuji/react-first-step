@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-const LeftPanel = () => (
+const LeftPanel: React.FC<any> = () => (
   <span>LEFT</span>
 )
 
-const RightPanel = () => (
+const RightPanel: React.FC<any> = () => (
   <span>RIGHT</span>
 )
 
-const Content= () => (
+const Content: React.FC<any> = () => (
   <div>
     <LeftPanel />
     <span>|</span>
